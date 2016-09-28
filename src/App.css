@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: 500px;
+  margin: 8px;
+}
+
+.Messages {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 8px;
+}
+
+.Editor {
+  border: 1px solid #000;
+  min-height: 30px;
+  font-size: 16px;
+  padding: 4px;
+}
